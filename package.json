@@ -1,9 +1,25 @@
 {
   "name": "homeassistant-mcp",
   "version": "0.1.0",
-  "description": "Model Context Protocol Server for Home Assistant",
+  "description": "Enhanced Model Context Protocol Server for Home Assistant - Enterprise-grade smart home automation platform with 7 advanced tools",
   "type": "module",
   "main": "dist/src/mcp-server.js",
+  "keywords": [
+    "home-assistant",
+    "mcp",
+    "model-context-protocol",
+    "smart-home",
+    "automation",
+    "energy-management",
+    "weather-integration",
+    "network-monitoring",
+    "backup-management",
+    "error-recovery",
+    "system-health",
+    "ai-nlp",
+    "iot",
+    "typescript"
+  ],
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/src/index.js",
@@ -19,6 +35,9 @@
     "prepare": "npm run build",
     "clean": "rimraf dist",
     "docs:generate": "node dist/src/api-docs/generate-docs.js",
+    "docs:serve": "node dist/src/api-docs/swagger.js",
+    "health:check": "node dist/src/tools/system-health.js",
+    "backup:status": "node dist/src/backup/status.js",
     "types:check": "tsc --noEmit",
     "types:install": "npm install --save-dev @types/node @types/jest"
   },
