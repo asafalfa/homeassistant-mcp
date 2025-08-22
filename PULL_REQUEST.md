@@ -76,6 +76,6 @@ This update transforms the Home Assistant MCP server into a **production-ready, 
 
 ---
 
-**Contributor**: [@tevonsb](https://github.com/tevonsb)  
-**Fork**: [tevonsb/homeassistant-mcp](https://github.com/tevonsb/homeassistant-mcp)  
+**Contributor**: [@asafalfa](https://github.com/asafalfa)  
+**Fork**: [asafalfa/homeassistant-mcp](https://github.com/asafalfa/homeassistant-mcp)  
 **Original Repository**: [jango-blockchained/homeassistant-mcp](https://github.com/jango-blockchained/homeassistant-mcp)
